@@ -1,0 +1,28 @@
+# ===== 大模型与智能体框架（Python 原生技术栈）=====
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+# 可选：社区文档加载器（PDF 等）
+langchain-community>=0.3.0
+
+# ===== 大模型 HTTP 客户端（OpenAI 兼容协议，可接 DeepSeek / OpenAI / 本地模型）=====
+openai>=1.40.0
+
+# ===== 前端交互界面 =====
+gradio>=4.44.0
+
+# ===== 数据处理 / 持久化 =====
+pandas>=2.0.0
+numpy>=1.26.0
+scikit-learn>=1.3.0        # TF-IDF 向量检索（离线 RAG，无需联网 Embedding）
+
+# ===== 可视化 =====
+matplotlib>=3.7.0
+
+# ===== 文档解析（RAG 导入个人理财笔记 PDF）=====
+pypdf>=4.0.0
+pdfplumber>=0.11.0
+
+# ===== 配置 =====
+python-dotenv>=1.0.0

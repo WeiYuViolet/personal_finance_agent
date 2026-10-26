@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+output/finance.db
+output/charts/*.png
